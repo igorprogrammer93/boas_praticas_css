@@ -1,0 +1,34 @@
+/* Bloco */
+.produtos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
+
+/* Elementos dentro do bloco produtos */
+.produtos__item {
+    /* Adicione estilos se necessário */
+}
+
+.produtos__item-imagem {
+    width: 100%;
+}
+
+.produtos__item-nome {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.produtos__item-descricao {
+    color: gray;
+}
+
+/* Modificador */
+.produtos__item--destaque {
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
